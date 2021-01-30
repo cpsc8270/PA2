@@ -1,0 +1,8 @@
+#!/bin/bash
+
+git add cool.flex
+git add README
+
+git commit -m 'submit by $USER'
+git push
+
