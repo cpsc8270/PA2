@@ -1,8 +1,8 @@
 #!/bin/bash
 
-git add cool.flex
-git add README
+for fn in README cool.flex test.cl; do
+	git add $fn
+done
 
 git commit -m 'submit by $USER'
 git push
-
